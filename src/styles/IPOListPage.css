@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.ipo-list {
+  margin-top: 2%;
+  padding: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  font-family: 'Sora', sans-serif;
+  width: 70%;
+  height: 100%;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.ipo-list h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.ipo-list table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ipo-list th, .ipo-list td {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.ipo-list th {
+  background-color: #f2f2f2;
+  font-weight: 600;
+}
+
+.ipo-list a {
+  text-decoration: none;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0.1px solid grey;
+  margin-right: 10px;
+}
+
+.company-link {
+  font-weight: bold;
+  color: black;
+}
+
+.company-link:hover {
+  text-decoration: underline;
+}
+
+.issue-dates {
+  color: grey;
+  font-size: 12px;
+}
+
+.bold-text {
+  font-weight: bold;
+  text-align: center;
+}
+
+.table-heading {
+  color: grey;
+  font-size: 12px;
+}
+
+.min-qty {
+  color: grey;
+  font-weight: lighter;
+  font-size: 12px;
+  text-align: left;
+}
